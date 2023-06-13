@@ -1,0 +1,67 @@
+
+.contenedor {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(16, minmax(0, 1fr));
+    grid-gap: 28px;
+    grid-template-rows: repeat(4, minmax(0, 200px));
+}
+
+.uno {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno img {
+    border: 1px black solid;
+}
+
+.dos {
+    grid-column: 6 / 15;
+}
+
+.tres {
+    grid-column: 1 / 2;
+
+}
+
+.cuatro {
+    grid-column: 3 / 5;
+
+}
+
+.cinco {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.seis {
+    grid-column: 5 / 7;
+
+}
+
+.siete {
+    grid-column: 9 / 15;
+
+}
+
+.ocho {
+    grid-column: 9;
+}
+
+.nueve {
+    grid-column: 1;
+}
+
+.diez {
+    grid-column: 3;
+}
+
+.once {
+    grid-column: 5 / 15;
+}
+
